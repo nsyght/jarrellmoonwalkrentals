@@ -1178,6 +1178,18 @@
   .map-embed { border-radius: var(--radius-card); overflow: hidden; box-shadow: var(--shadow); }
   .map-embed iframe { display: block; }
 
+
+  .price-compare-wrap { overflow-x: auto; margin-top: 8px; }
+  .price-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; border-radius: var(--radius-card); overflow: hidden; box-shadow: var(--shadow); }
+  .price-table th { background: var(--navy); color: var(--white); font-family: 'Fredoka One', cursive; padding: 14px 16px; text-align: left; white-space: nowrap; }
+  .price-table td { padding: 12px 16px; border-bottom: 1px solid rgba(26,26,46,0.07); color: var(--text-mid); }
+  .price-table tr:nth-child(even) td { background: var(--light-bg); }
+  .price-table td:first-child { color: var(--navy); }
+  .price-col { font-family: 'Fredoka One', cursive; font-size: 1.05rem; color: var(--red); white-space: nowrap; }
+  .price-answer-block { background: rgba(233,69,96,0.06); border-left: 4px solid var(--red); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 20px 24px; margin-bottom: 28px; }
+  .price-answer-block h3 { font-size: 1rem; color: var(--navy); margin-bottom: 8px; }
+  .price-answer-block p { font-size: 0.92rem; color: var(--text-mid); line-height: 1.7; }
+
   @media (max-width: 768px) {
     .nav-links { display: none; }
     .hamburger { display: flex; }
@@ -1196,6 +1208,67 @@
     .trust-bar .container { gap: 18px; }
   }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.jarrellmoonwalkrentals.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Bounce House Rentals", "item": "https://www.jarrellmoonwalkrentals.com/bounce-house-rentals.html"},
+    {"@type": "ListItem", "position": 3, "name": "Water Slide Rentals", "item": "https://www.jarrellmoonwalkrentals.com/water-slide-rentals.html"},
+    {"@type": "ListItem", "position": 4, "name": "Combo Bounce Houses", "item": "https://www.jarrellmoonwalkrentals.com/combo-bounce-house-rentals.html"},
+    {"@type": "ListItem", "position": 5, "name": "Obstacle Course Rentals", "item": "https://www.jarrellmoonwalkrentals.com/obstacle-course-rentals.html"},
+    {"@type": "ListItem", "position": 6, "name": "About", "item": "https://www.jarrellmoonwalkrentals.com/about.html"},
+    {"@type": "ListItem", "position": 7, "name": "Contact", "item": "https://www.jarrellmoonwalkrentals.com/contact.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.jarrellmoonwalkrentals.com",
+  "name": "Jarrell Moonwalk Rentals",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.jarrellmoonwalkrentals.com/bounce-house-rentals.html?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Jarrell Moonwalk Rentals",
+  "telephone": "(737) 234-3992",
+  "url": "https://www.jarrellmoonwalkrentals.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Jarrell",
+    "addressRegion": "TX",
+    "postalCode": "76537",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 30.8249,
+    "longitude": -97.6045
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 30.8249,
+      "longitude": -97.6045
+    },
+    "geoRadius": "48280"
+  }
+}
+</script>
 </head>
 <body>
 
@@ -1392,6 +1465,73 @@
   </div>
 </section>
 
+
+<!-- PRICING COMPARISON TABLE -->
+<section style="background:var(--light-bg);">
+  <div class="container">
+    <span class="section-label">Quick Price Guide</span>
+    <h2 class="section-title">What Does an <span>Inflatable Rental</span> Cost in Jarrell TX?</h2>
+    <p class="section-sub">Every rental includes delivery, setup, and pickup to Jarrell TX and Williamson County. No hidden fees. Prices below are starting rates -- call (737) 234-3992 for an exact quote.</p>
+    <div class="price-compare-wrap">
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th>Rental Type</th>
+            <th>Starting Price</th>
+            <th>Best For</th>
+            <th>Space Needed</th>
+            <th>Ages</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Bounce House</strong></td>
+            <td class="price-col">$155</td>
+            <td>Birthday parties, backyard events</td>
+            <td>15 x 15 ft</td>
+            <td>3 to 12</td>
+          </tr>
+          <tr>
+            <td><strong>Combo Bounce House</strong></td>
+            <td class="price-col">$195</td>
+            <td>Larger groups, mixed ages</td>
+            <td>20 x 18 ft</td>
+            <td>3 to 14</td>
+          </tr>
+          <tr>
+            <td><strong>Water Slide</strong></td>
+            <td class="price-col">$245</td>
+            <td>Summer parties, school field days</td>
+            <td>20 x 15 ft</td>
+            <td>4 and up</td>
+          </tr>
+          <tr>
+            <td><strong>Double Lane Water Slide</strong></td>
+            <td class="price-col">$335</td>
+            <td>Large groups, racing competitions</td>
+            <td>25 x 18 ft</td>
+            <td>5 and up</td>
+          </tr>
+          <tr>
+            <td><strong>Obstacle Course</strong></td>
+            <td class="price-col">$365</td>
+            <td>School carnivals, community events</td>
+            <td>40 x 15 ft</td>
+            <td>5 and up</td>
+          </tr>
+          <tr>
+            <td><strong>6N1 Combo</strong></td>
+            <td class="price-col">$295</td>
+            <td>Max activity, one unit</td>
+            <td>25 x 20 ft</td>
+            <td>4 to 14</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:20px;font-size:0.88rem;color:var(--text-mid);">All rentals are provided by Jump Around Party Rentals, who is fully licensed and insured in Williamson County and Travis County, Texas.</p>
+  </div>
+</section>
 <!-- NEIGHBORHOOD + LOCAL FACTS -->
 <section class="neighborhood-section">
   <div class="container">
@@ -1429,7 +1569,7 @@
       </div>
     </div>
 
-    <p style="margin-top:28px;font-size:0.92rem;color:var(--text-mid);">Jarrell sits along I-35, 17 miles north of Georgetown and 30 miles from Austin. The Sonterra community alone covers 1,400 acres and is served by its own MUD with a community pool, splash pad, clubhouse, basketball courts, and walking trails. We deliver to all Jarrell ISD school zones including families near Jarrell Elementary, Igo Elementary, Double Creek Elementary, Jarrell Middle School, Jarrell Ranch Middle School, and Jarrell High School.</p>
+    <p style="margin-top:28px;font-size:0.92rem;color:var(--text-mid);">Jarrell sits along I-35, 17 miles north of Georgetown and 30 miles from Austin. The Sonterra community alone covers 1,400 acres and is served by its own MUD with a community pool, splash pad, clubhouse, basketball courts, and walking trails -- opening every Memorial Day weekend. We deliver to all Jarrell ISD school zones including families near Jarrell Elementary, Igo Elementary, Double Creek Elementary, Jarrell Middle School, Jarrell Ranch Middle School, and Jarrell High School. Popular Jarrell TX events that book inflatables include the annual Jarrell Rock Solid Spring Festival, Sonterra MUD community events, Jarrell ISD field days, and neighborhood block parties throughout Sonterra and Hunter's Glen.</p>
   </div>
 </section>
 
@@ -1491,6 +1631,10 @@
     <span class="section-label">Common Questions</span>
     <h2 class="section-title">Bounce House Rental <span>FAQ</span></h2>
     <p class="section-sub">Everything Jarrell TX families ask about renting a moonwalk, bounce house, or water slide.</p>
+    <div class="price-answer-block">
+      <h3>How much does a bounce house rental cost in Jarrell TX?</h3>
+      <p>Bounce house rentals in Jarrell TX start at <strong>$155</strong> for a standard themed moonwalk. Combo bounce houses start at <strong>$195</strong>. Water slide rentals start at <strong>$245</strong>. Obstacle course rentals start at <strong>$365</strong>. All pricing includes delivery, setup, and pickup directly to your Jarrell TX address -- there are no extra fees. Jarrell Moonwalk Rentals serves all of ZIP code 76537 including Sonterra, Hunter's Glen, Stonebridge, and surrounding Williamson County neighborhoods.</p>
+    </div>
     <div class="faq-list">
       <div class="faq-item">
         <button class="faq-question">How much does it cost to rent a moonwalk in Jarrell TX? <span class="faq-chevron">▼</span></button>
