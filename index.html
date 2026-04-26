@@ -943,6 +943,34 @@
     color: var(--text-mid);
   }
 
+  .local-facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  .fact-card {
+    background: var(--navy);
+    border-radius: var(--radius-card);
+    padding: 22px 20px;
+    text-align: center;
+  }
+
+  .fact-num {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.9rem;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .fact-label {
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.8);
+    line-height: 1.5;
+  }
+
   /* BOOKING FORM */
   .booking-section { background: var(--navy); }
 
@@ -1356,23 +1384,44 @@
   </div>
 </section>
 
-<!-- NEIGHBORHOOD + ZIP -->
+<!-- NEIGHBORHOOD + LOCAL FACTS -->
 <section class="neighborhood-section">
   <div class="container">
-    <span class="section-label">Service Area</span>
-    <h2 class="section-title">Serving <span>Jarrell</span> and Williamson County</h2>
-    <p class="section-sub">We deliver moonwalks and inflatables throughout Jarrell TX and surrounding Williamson County communities. Same-day availability on select dates.</p>
+    <span class="section-label">Jarrell TX Neighborhoods</span>
+    <h2 class="section-title">We Deliver to <span>Every Corner</span> of Jarrell</h2>
+    <p class="section-sub">Jarrell TX is one of the fastest-growing cities in Texas -- up 28.8% in a single year. With thousands of new families in Sonterra, Hunter's Glen, Cool Water, and beyond, there is no shortage of birthdays, block parties, and school carnivals that need a great inflatable rental.</p>
+
     <div class="zip-grid">
-      <div class="zip-card"><strong>Jarrell TX</strong><span>ZIP 76537</span></div>
-      <div class="zip-card"><strong>Georgetown TX</strong><span>17 miles south</span></div>
-      <div class="zip-card"><strong>Round Rock TX</strong><span>24 miles south</span></div>
-      <div class="zip-card"><strong>Hutto TX</strong><span>Williamson County</span></div>
-      <div class="zip-card"><strong>Taylor TX</strong><span>Williamson County</span></div>
-      <div class="zip-card"><strong>Granger TX</strong><span>Williamson County</span></div>
-      <div class="zip-card"><strong>Florence TX</strong><span>Williamson County</span></div>
-      <div class="zip-card"><strong>Liberty Hill TX</strong><span>Williamson County</span></div>
+      <div class="zip-card"><strong>Sonterra</strong><span>Largest community in Jarrell -- 1,400 acres east of I-35</span></div>
+      <div class="zip-card"><strong>Cool Water at Sonterra</strong><span>Master-planned with pools, sports courts, and trails</span></div>
+      <div class="zip-card"><strong>Eastwood</strong><span>Within Sonterra -- splash park, playground, and pond</span></div>
+      <div class="zip-card"><strong>Hunter's Glen</strong><span>Active new-construction community near I-35</span></div>
+      <div class="zip-card"><strong>Stonebridge</strong><span>Established Jarrell subdivision, ZIP 76537</span></div>
+      <div class="zip-card"><strong>Canyon Ranch</strong><span>Jarrell neighborhood, Williamson County</span></div>
+      <div class="zip-card"><strong>Double Creek</strong><span>Rebuilt neighborhood near Jarrell ISD campuses</span></div>
+      <div class="zip-card"><strong>Old Town Jarrell</strong><span>Original city core along I-35</span></div>
     </div>
-    <p style="margin-top:28px;font-size:0.92rem;color:var(--text-mid);">Jarrell TX sits along I-35, 17 miles north of Georgetown and 24 miles from Round Rock, making it a central delivery point for our Williamson County service area. We deliver to all Jarrell ISD school zones including families near Jarrell Elementary, Igo Elementary, Double Creek Elementary, Jarrell Middle School, Jarrell Ranch Middle School, and Jarrell High School.</p>
+
+    <div class="local-facts">
+      <div class="fact-card">
+        <span class="fact-num">#2</span>
+        <span class="fact-label">Fastest-growing city in Texas in 2024 -- 28.8% population increase in one year</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-num">6,800+</span>
+        <span class="fact-label">Residents and growing fast -- up from 1,753 at the 2020 census</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-num">$111K</span>
+        <span class="fact-label">Median household income -- one of the strongest in Williamson County</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-num">3,700+</span>
+        <span class="fact-label">Jarrell ISD students -- enrollment expected to reach 7,500 by 2027</span>
+      </div>
+    </div>
+
+    <p style="margin-top:28px;font-size:0.92rem;color:var(--text-mid);">Jarrell sits along I-35, 17 miles north of Georgetown and 30 miles from Austin. The Sonterra community alone covers 1,400 acres and is served by its own MUD with a community pool, splash pad, clubhouse, basketball courts, and walking trails. We deliver to all Jarrell ISD school zones including families near Jarrell Elementary, Igo Elementary, Double Creek Elementary, Jarrell Middle School, Jarrell Ranch Middle School, and Jarrell High School.</p>
   </div>
 </section>
 
@@ -1446,8 +1495,8 @@
         <div class="faq-answer"><div class="faq-answer-inner">Yes. Combo bounce houses that combine a jump house with a slide, basketball hoop, or climbing wall are available for Jarrell TX rentals. Combo inflatables are one of the most popular options for birthday parties and Jarrell ISD school carnival events.</div></div>
       </div>
       <div class="faq-item">
-        <button class="faq-question">Do you service Double Creek Estates and other Jarrell neighborhoods? <span class="faq-chevron">▼</span></button>
-        <div class="faq-answer"><div class="faq-answer-inner">Yes. We deliver moonwalks and bounce houses throughout Jarrell TX including Double Creek Estates and surrounding Williamson County subdivisions. We also serve Georgetown, Hutto, Taylor, Granger, and Florence. Call (737) 234-3992 to confirm delivery to your address.</div></div>
+        <button class="faq-question">Do you deliver to Sonterra, Hunter's Glen, and other Jarrell neighborhoods? <span class="faq-chevron">▼</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Yes. We deliver bounce houses, moonwalks, and water slides to every Jarrell TX neighborhood including Sonterra, Cool Water at Sonterra, Eastwood, Hunter's Glen, Stonebridge, Canyon Ranch, Double Creek, and Old Town Jarrell. We also serve Georgetown, Hutto, Taylor, Granger, and Florence. Call (737) 234-3992 to confirm delivery to your address.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question">Is Jarrell Moonwalk Rentals licensed and insured in Williamson County? <span class="faq-chevron">▼</span></button>
