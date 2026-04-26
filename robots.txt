@@ -1,3 +1,25 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://www.jarrellmoonwalkrentals.com/sitemap.xml
+
+# LLM crawler guidance
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# LLMs.txt available at /llms.txt
