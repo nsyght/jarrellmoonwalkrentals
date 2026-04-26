@@ -1172,6 +1172,12 @@
     line-height: 1.6;
   }
 
+
+  .map-wrapper { padding: 56px 0 48px; }
+  .map-header { margin-bottom: 8px; }
+  .map-embed { border-radius: var(--radius-card); overflow: hidden; box-shadow: var(--shadow); }
+  .map-embed iframe { display: block; }
+
   @media (max-width: 768px) {
     .nav-links { display: none; }
     .hamburger { display: flex; }
@@ -1223,9 +1229,11 @@
     <li><a href="obstacle-course-rentals.html">Obstacle Courses</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="contact.html">Contact</a></li>
-    <li><a href="tel:7372343992">(737) 234-3992</a></li>
   </ul>
-  <a href="contact.html" class="mob-cta">Book Now</a>
+  <div class="mob-btns">
+    <a href="tel:7372343992" class="mob-call">&#128222; (737) 234-3992</a>
+    <a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="mob-cta">Book Now</a>
+  </div>
 </div>
 
 <!-- HERO -->
@@ -1237,7 +1245,7 @@
     <h1 class="speakable-hero">Jarrell <span>Moonwalk</span> Rentals</h1>
     <p class="hero-sub">Bounce houses, water slides, and combo inflatables delivered and set up at your Jarrell TX door. Serving Jarrell ISD families, Double Creek Estates, and all of Williamson County.</p>
     <div class="hero-btns">
-      <a href="contact.html" class="btn-primary">Get a Free Quote</a>
+      <a href="https://www.jump-aroundpartyrentals.com/category/" target="_blank" rel="noopener" class="btn-primary">Book Now</a>
       <a href="tel:7372343992" class="btn-secondary">Call (737) 234-3992</a>
     </div>
   </div>
@@ -1422,6 +1430,32 @@
     </div>
 
     <p style="margin-top:28px;font-size:0.92rem;color:var(--text-mid);">Jarrell sits along I-35, 17 miles north of Georgetown and 30 miles from Austin. The Sonterra community alone covers 1,400 acres and is served by its own MUD with a community pool, splash pad, clubhouse, basketball courts, and walking trails. We deliver to all Jarrell ISD school zones including families near Jarrell Elementary, Igo Elementary, Double Creek Elementary, Jarrell Middle School, Jarrell Ranch Middle School, and Jarrell High School.</p>
+  </div>
+</section>
+
+
+<!-- MAP -->
+<section style="padding: 0; background: var(--white);">
+  <div class="container" style="padding-top: 0; padding-bottom: 0;">
+    <div class="map-wrapper">
+      <div class="map-header">
+        <span class="section-label">Service Area Map</span>
+        <h2 class="section-title" style="margin-bottom:8px;">Jarrell TX <span>Delivery Zone</span></h2>
+        <p style="font-size:0.95rem;color:var(--text-mid);margin-bottom:20px;">We deliver to Jarrell TX and all surrounding Williamson County communities. If you can see it on the map, we can reach it.</p>
+      </div>
+      <div class="map-embed">
+        <iframe
+          title="Jarrell Texas map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54831.330920007895!2d-97.65502714442772!3d30.80380698452874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8645257a2285b607%3A0xc8c74c4707b48204!2sJarrell%2C%20TX!5e0!3m2!1sen!2sus!4v1777178355528!5m2!1sen!2sus"
+          width="100%"
+          height="420"
+          style="border:0; display:block; border-radius: var(--radius-card);"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
   </div>
 </section>
 
